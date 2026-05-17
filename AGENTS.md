@@ -18,8 +18,7 @@ horizon, not for one cluster:
 
 - internal DNS suffix;
 - public DNS suffix;
-- LAN allocation pool and versioned hash namespace;
-- reserved service subdomain labels.
+- temporary exact IPv4 LAN, until the IPv6-first network design lands.
 
 Per-cluster node data, users, trust, key material, provider selections,
 and secrets stay in cluster repositories such as `goldragon`.

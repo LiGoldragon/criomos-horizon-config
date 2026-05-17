@@ -4,6 +4,9 @@
 (HorizonProposal
   LiGoldragon
   (DomainSuffixes "criome" "criome.net")
-  (LanPool "10.18.0.0/16" 24 "criome-lan-v1")
-  [tailnet vault git mail]
+  (TransitionalIpv4Lan
+    "10.18.0.0/24"
+    "10.18.0.1"
+    (DhcpPool "10.18.0.100" "10.18.0.240")
+    "TEMPORARY: single-router IPv4 LAN until IPv6-first networking lands")
   [])
