@@ -1,0 +1,9 @@
+;; Pan-horizon authored configuration for LiGoldragon's CriomOS horizon.
+;; Schema: horizon-rs HorizonProposal.
+
+(HorizonProposal
+  LiGoldragon
+  (DomainSuffixes "criome" "criome.net")
+  (LanPool "10.18.0.0/16" 24 "criome-lan-v1")
+  [tailnet vault git mail]
+  [])
