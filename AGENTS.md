@@ -7,7 +7,7 @@ This repository contains pan-horizon authored configuration consumed by
 
 1. `/home/li/primary/ESSENCE.md`
 2. `/home/li/primary/repos/lore/AGENTS.md`
-3. `/home/li/primary/protocols/orchestration.md`
+3. `/home/li/primary/orchestrate/AGENTS.md`
 4. `/home/li/primary/skills/system-specialist.md`
 5. This repo's `ARCHITECTURE.md`
 
